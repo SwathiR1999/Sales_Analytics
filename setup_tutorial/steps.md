@@ -29,17 +29,17 @@ Once connected, you can:
 * Open pgAdmin
 * In pgAdmin, expand `Servers > PostgreSQL > Databases`
 * Right-click `Databases > Create > Database`
-  Name: dvdrental
-  Leave owner as `postgres`
-  Click Save
+  * Name: dvdrental
+  * Leave owner as `postgres`
+  * Click Save
 
 * Restore the .tar file :
-  Right-click your new database dvdrental > Restore
-  In the dialog:
-    Format: Custom or tar
-    Filename: Browse to and select dvdrental.tar
-    Leave other settings as-is
-    Click Restore
+  * Right-click your new database dvdrental > Restore
+  * In the dialog:
+     * Format: Custom or tar
+     * Filename: Browse to and select dvdrental.tar
+     * Leave other settings as-is
+     * Click Restore
 * Done!
-  After a few seconds, your schema and tables will appear.
+  * After a few seconds, your schema and tables will appear.
 * Go to dvdrental > Schemas > public > Tables to explore.
