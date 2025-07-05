@@ -52,9 +52,9 @@ Once connected, you can:
   * Search for PostgreSQL database
   * Click Connect
 * Enter Connection Details
-  * Server	localhost:5432
-  * Database	your_database_name
-  * Data Connectivity Mode	Import (or DirectQuery for live data)
+  * Server:	localhost:5432
+  * Database:	your_database_name
+  * Data Connectivity Mode:	Import (or DirectQuery for live data)
 * Enter Authentication
   * Choose Database authentication:
    * Username: e.g., postgres
