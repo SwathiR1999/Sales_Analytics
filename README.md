@@ -1,7 +1,7 @@
 # DVD Rental Analytics with PostgreSQL and Power BI
 ![image](https://github.com/user-attachments/assets/c999b648-312c-4795-b361-d637aec4c8d8)
 
-This project demonstrates SQL and data visualization skills using the [DVD Rental](https://www.postgresqltutorial.com/postgresql-sample-database/) sample database on PostgreSQL.
+This project demonstrates SQL and data visualization skills using the [DVD Rental](https://neon.com/postgresql/postgresql-getting-started/postgresql-sample-database) sample database on PostgreSQL.
 
 It includes:
 - SQL queries for customer behavior, revenue trends, and most rented movies
