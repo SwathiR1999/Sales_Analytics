@@ -60,3 +60,32 @@ Once connected, you can:
    * Username: e.g., postgres
    * Password: your password
    * Click Connect 
+
+# **To write multiple queries**
+When you go to: Home → Get Data → PostgreSQL → Paste a new SQL query...Power BI treats this as a new data source and loads only the result of that one query. So if you overwrite the connection each time with a new query:
+ * The old data table is removed
+ * Visuals based on that old table break or disappear
+  
+Solution: Load Multiple Queries as Separate Tables
+ * Instead of replacing the old query each time:
+   * Get Data → PostgreSQL
+   * Paste your first SQL query (e.g., for customer rentals)
+   * Load it
+   * The result appears as a table in the Fields pane
+   * You can build visualizations now
+   * To Add Another Query:
+     * Again: Home → Get Data → PostgreSQL
+     * Paste another query (e.g., top movies)
+     * Click Load
+     * Power BI adds a new table to the Fields pane - the previous one stays intact.
+     * Now you can: Build visuals from both tables independently and even combine them later using relationships if needed
+ * Naming the Queries (Important!)
+    * After loading a query, rename the table in the Fields pane:
+      * Right-click → Rename
+      * Example: CustomerRentals, TopMovies, MonthlyRevenue
+      * This keeps your visuals organized and avoids confusion.
+ * Optional: Combine Queries in Power Query Editor
+    * You can also:
+      * Go to Home > Transform Data
+      * Click Advanced Editor
+      * Add multiple queries and rename each as a table
