@@ -43,3 +43,20 @@ Once connected, you can:
 * Done!
   * After a few seconds, your schema and tables will appear.
 * Go to dvdrental > Schemas > public > Tables to explore.
+
+# **Connecting to PowerBI desktop**
+* Install PowerBI desktop
+* Open Power BI Desktop
+* Connect to PostgreSQL
+  * Click Home > Get Data > More...
+  * Search for PostgreSQL database
+  * Click Connect
+* Enter Connection Details
+  * Server	localhost:5432
+  * Database	your_database_name
+  * Data Connectivity Mode	Import (or DirectQuery for live data)
+* Enter Authentication
+  * Choose Database authentication:
+   * Username: e.g., postgres
+   * Password: your password
+   * Click Connect 
